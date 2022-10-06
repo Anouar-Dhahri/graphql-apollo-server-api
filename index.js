@@ -9,7 +9,7 @@ import { typeDefs, resolvers } from './graphql/index.js'
 
 const app = express()
 const port = process.env.PORT || 8080
-const server = new ApolloServer({ typeDefs, resolvers }); //typeDefs, resolvers
+const server = new ApolloServer({ typeDefs, resolvers, cache: "bounded", persistedQueries: false }); //typeDefs, resolvers
 
 dotenv.config();
 

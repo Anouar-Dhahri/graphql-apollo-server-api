@@ -18,3 +18,7 @@ npm run dev
 ![ExpressApolloServerAPI](screenshots/0.png)
 
 ![ExpressApolloServerAPI](screenshots/1.png)
+
+#### To deploy the app on heroku
+
+Whatch this [tutoriel](https://www.youtube.com/watch?v=ncBb2isphzw) to deploy the server properly and fix any error. 
